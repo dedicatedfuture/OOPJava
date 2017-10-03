@@ -1,0 +1,24 @@
+package com.BillZ;
+
+/**
+ * Created by Bill on 5/15/17.
+ */
+public class Car {
+
+    private int doors;
+    private int wheels;
+    private String model;
+    private String engine;
+    private String color;
+
+
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public String getModel(){
+        return this.model;
+    }
+
+
+}
